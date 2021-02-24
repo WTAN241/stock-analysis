@@ -38,13 +38,13 @@ In the original code from the module, there was no index used and the three step
 
 When running the original code without refactoring, the All Stocks Analysis takes about 0.98 and 0.95 seconds to run for the years 2017 and 2018 respectively.
 
-![Original_2017_Times](Original_2017_Times.png)
-![Original_2018_Times](Original_2018_Times.png)
+![Original_2017_Times](Original_2017_Times.PNG)
+![Original_2018_Times](Original_2018_Times.PNG)
 
 Comparatively, after implementing refactoring to the original code, the All Stocks Analysis takes about 0.17 secs to run.
 
-![VBA_Challenge_2017](VBA_Challenge_2017.png)
-![VBA_Challenge_2018](VBA_Challenge_2018.png)
+![VBA_Challenge_2017](VBA_Challenge_2017.PNG)
+![VBA_Challenge_2018](VBA_Challenge_2018.PNG)
 
 By using the tickerIndex to specify which ticker to look for, it helped reduced the runtime of the code by approximately an average of 0.79 secs or 82% for a database that contains 3013 rows of entries and which would make an even greater difference for a bigger database.
 
@@ -71,5 +71,5 @@ In the code for the All Stocks Analysis, the benefits from refactoring outweighs
 
 One challenge encountered was to make the code running times comparable since the first time you run a macro, the elapsed time may be longer than subsequent runs because computer resources need to be allocated to run a macro. Therefore, it is important to ensure that the computer resources have been allocated by running the macros several times and compare the elapsed times to look for consistencies. Once the difference between the elapsed times for the same macro is minimal, then it is safe to compare it to the elapsed times of other macro runs. For instance, when conducting 10 consequent runs of the refactored code for 2017, the line graph below shows the elapsed time results for these runs with one repeated output highlighted in light blue. The biggest difference between the elapsed times lies between the first and second run. Therefore, it is important to not use the first run of the macro for elapsed times comparison purposes since the computer resources have not been allocated yet. 
 
-![2017_Runs_Elapsed_Times](2017_Runs_Elapsed_Times.png)
+![2017_Runs_Elapsed_Times](2017_Runs_Elapsed_Times.PNG)
 
