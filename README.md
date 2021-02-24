@@ -14,6 +14,7 @@ When clicking the "All Stocks Analysis" button, the code will run automatically 
 
 ![All_Stocks_Performance_2017](All_Stocks_Performance_2017.png)
 
+
 As shown in the image above, DQ had the strongest stock return performance among the set of stocks provided by Steve. However, the 2017 performance cannot be used as a proper reference especially when we look at the 2018 All Stocks performanace shown below.
 
 ![All_Stocks_Performance_2018](All_Stocks_Performance_2018.png)
@@ -48,6 +49,21 @@ Comparatively, after implementing refactoring to the original code, the All Stoc
 By using the tickerIndex to specify which ticker to look for, it helped reduced the runtime of the code by approximately an average of 0.79 secs or 82% for a database that contains 3013 rows of entries and which would make an even greater difference for a bigger database.
 
 ## Summary of Pros and Cons
+
+Refactoring code is a common practice since first versions of codes are not always the most efficient ones. A lot of people may agree that there are plenty of advantages of refactoring code, but there are also people who disgree with this approach. Although I understand that the impact of refactoring varies from project to project, I believe that the overall advantages outweigh the disadvantages:
+
+### Advantages of Refactoring
+* It can improve the efficiency of the code by shortening execution time
+* It can eliminate redundant steps in the code and make it more simple
+* It gives you the opportunity to make the code more flexible in order to be adaptable for future projects
+* It allows for code that is cleaner and easier to read 
+
+### Disadvantages of Refactoring
+* Depending on the circumstances and the changes to be made, rewriting the code from scratch could be more effective than making some big changes
+* Refactoring code can be time-consuming, especially for bigger projects
+* If the refactoring is done incorrectly, it can make the system less efficient  
+ 
+In the code for the All Stocks Analysis, the benefits from refactoring outweighs the disadvantages. For instance, refactoring the initial nested For Loop to a For Loop that uses Indexing for the tickers helped the execution time reduce by about an average of 0.79 seconds or 82%. By refactoring the initial code, I was able to reduce the redundant steps of reading all the rows multiple times to reading it only once and gather all the information needed. Additionally, the code became much simpler and easier to read as well as more adaptable for larger sets of data since the execution time has been greatly reduced. The disadvantages of refactoring did not apply in this case since the analysis code has a relatively simple structure and there was much room for improvement because of its repetitive steps. Overall, implementing refactoring to the original code made it more efficient and adaptable for larger data sets, which is what Steve is looking for.
 
 
 
