@@ -12,16 +12,16 @@ The purpose of this code is to analyze an entire dataset of stocks prices and vo
 
 When clicking the "All Stocks Analysis" button, the code will run automatically by looping through the dataset once and calculating the total volume and year-end return for each ticker. In addition to providing these numbers, the code will automatically format the results so that it is easier for the reader to compare the performance of the stocks. The results of the All Stocks Analysis for the years 2017 and 2018 are illustrated in the tables below.
 
-![All_Stocks_Performance_2017](All_Stocks_Performance_2017.png)
+![All_Stocks_Performance_2017](All_Stocks_Performance_2017.PNG)
 
 
 As shown in the image above, DQ had the strongest stock return performance among the set of stocks provided by Steve. However, the 2017 performance cannot be used as a proper reference especially when we look at the 2018 All Stocks performanace shown below.
 
-![All_Stocks_Performance_2018](All_Stocks_Performance_2018.png)
+![All_Stocks_Performance_2018](All_Stocks_Performance_2018.PNG)
 
 According to the graph, the same set of stocks experienced a decline of approximately 76% of the average retuns of the stocks in 2018. Moreover, DQ experienced the greatest decline in return in 2018, thus, showing the high volatility of this stock. On the other hand, there were two stocks that stuck out to me because of their consistent positive returns across 2017 and 2018: ENPH and RUN. Also, when comparing ENPH and RUN to the average return of each stock in 2017-2018, ENPH and RUN have a higher average return than DQ as shown in the graph below. Above all, ENPH and RUN demonstrated resiliency in maintaining high positive returns despite the overall decline in returns in 2018. Therefore, my suggestion to Steve's parents would be to purchase at least ENPH and SEDG to include in their alternative energy stocks portfolio because of their stable average higher return and because it will enable them to diversify their portfolio with stocks from companies that provide different solar energy products.
 
-![Average_Return_2017_And_2018](Average_Return_2017_And_2018.png)
+![Average_Return_2017_And_2018](Average_Return_2017_And_2018.PNG)
 
 ### Refactoring of the Code Analysis
 My friend Steve appreciates my help with creating this code that analyzes many stocks at the same time, but Steve also wanted my help with making the code more flexible and efficient to analyze a wider set of stocks.  
